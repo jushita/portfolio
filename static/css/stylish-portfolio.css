@@ -16,6 +16,7 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
 .text-vertical-center {
     background: url(../img/bg.jpg) no-repeat center center scroll;
     background-repeat: no-repeat;
@@ -504,7 +505,7 @@ p {
 .skillset .level-bar-inner2 {
   height: 12px;
   background: #F61067;
-  width: 300px;
+  width: 250px;
 }
 .skillset .level-bar-inner3 {
   height: 12px;
@@ -514,7 +515,7 @@ p {
 .skillset .level-bar-inner4 {
   height: 12px;
   background: #F61067;
-  width: 100px;
+  width: 175px;
 }
 .skillset .level-bar-inner5 {
   height: 12px;
@@ -522,6 +523,36 @@ p {
   width: 50px;
 }
 .skillset .level-bar-inner6 {
+  height: 12px;
+  background: #F61067;
+  width: 100px;
+}
+.skillset .level-bar-inner7 {
+  height: 12px;
+  background: #F61067;
+  width: 350px;
+}
+.skillset .level-bar-inner8 {
+  height: 12px;
+  background: #F61067;
+  width: 275px;
+}
+.skillset .level-bar-inner9 {
+  height: 12px;
+  background: #F61067;
+  width: 200px;
+}
+.skillset .level-bar-inner10 {
+  height: 12px;
+  background: #F61067;
+  width: 100px;
+}
+.skillset .level-bar-inner11 {
+  height: 12px;
+  background: #F61067;
+  width: 50px;
+}
+.skillset .level-bar-inner12 {
   height: 12px;
   background: #F61067;
   width: 40px;

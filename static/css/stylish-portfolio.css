@@ -627,8 +627,6 @@ p {
 }
 .portfolio-thumb img {
   width: 100%;
-
-
 }
 
 .portfolio-thumb p {
@@ -646,12 +644,4 @@ p {
 .portfolio-big {
   width: 95%;
  /* height: 680px;*/
-}
-.tagline{
-    color: white;
-    text-align: center;
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding-top: 20px;
-    font-size: 30px;
-    font-weight: 300px;
 }

@@ -605,3 +605,53 @@ p {
     top: 1px;
   }
 }
+
+
+/*******************************************portfolio style *************************************/
+
+#work{
+    background: #24232C;
+    max-width: 960px;
+    margin: 0 auto;
+    position: center;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.portfolio-thumb {
+  width: 20%;
+  margin: 20px;
+  background-color: #F0F3F1;
+  display: inline-block;
+  /*//height: 500px;*/
+}
+.portfolio-thumb img {
+  width: 100%;
+
+
+}
+
+.portfolio-thumb p {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #24232C;
+  padding: 10px 30px 20px 30px;
+  text-align: center;
+  line-height: 24px;
+}
+.portfolio-thumb a {
+  text-decoration: underline;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.portfolio-big {
+  width: 95%;
+ /* height: 680px;*/
+}
+.tagline{
+    color: white;
+    text-align: center;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 300px;
+}

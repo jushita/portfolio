@@ -614,14 +614,14 @@ p {
 /* Thin out the marketing headings */
 .featurette-heading {
     padding-top: 80px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 27px;
 }
 .col-md-5 img{
     width: 320px;
     height: 400px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 30px
 
 }
 .col-md-7{

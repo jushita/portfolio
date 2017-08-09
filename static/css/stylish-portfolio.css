@@ -1,11 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-/* Global Styles */
-
 html,
 body {
     width: 100%;
@@ -226,32 +218,6 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
 /* Footer */
 
 footer {
@@ -300,7 +266,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4CAC9D;
+  background: #F0F3F1;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -606,42 +572,64 @@ p {
   }
 }
 
+/*************************revised portfolio style***************************************/
 
-/*******************************************portfolio style *************************************/
 
-#work{
-    background: #24232C;
-    max-width: 960px;
-    margin: 0 auto;
-    position: center;
-    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-.portfolio-thumb {
-  width: 20%;
-  margin: 20px;
-  background-color: #F0F3F1;
-  display: inline-block;
-  /*//height: 500px;*/
-}
-.portfolio-thumb img {
-  width: 100%;
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #24232C;
 }
 
-.portfolio-thumb p {
-  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  color: #24232C;
-  padding: 10px 30px 20px 30px;
-  text-align: center;
-  line-height: 24px;
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
 }
-.portfolio-thumb a {
-  text-decoration: underline;
-  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+.card > img {
+  margin-bottom: .75rem;
+  width: 350px;
+  height: 350px;
 }
-.portfolio-big {
-  width: 95%;
- /* height: 680px;*/
+
+.card-text {
+    color: #F0F3F1;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.card a{
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.card a:hover{
+    color: white;
+}
+/******************************************contact*******************************/
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    padding-top: 80px;
+    font-weight: 400;
+    font-size: 27px;
+}
+.col-md-5 img{
+    width: 320px;
+    height: 400px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+}
+.col-md-7{
+    padding-left: 100px;
+    padding-right: -40px;
+    text-align: center;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.lead {
+    font-size: 16px;
 }

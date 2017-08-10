@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -21,7 +21,23 @@
     <link href="../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <link rel="shortcut icon" href="../static/img/llogo_final___copy11_Sh0_icon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="..static/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="..static/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="..static/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="..static/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="..static/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="..static/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="..static/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="..static/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="..static/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="..static/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="..static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="..static/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="..static/img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -52,9 +68,21 @@
 
     <!-- Header -->
     <header id="top" class="header">
+        <div class="keyboard-container">
+            <img class="keyboard" src="../static/img/keyboard.png" alt="keyboard" />
+        </div>
+        <div class="mouse-container">
+            <img class="mouse" src="../static/img/mouse.png" alt="mouse" />
+        </div>
+        <div class="notebook-container">
+            <img class="notebook" src="../static/img/notebook.png" alt="notebook" />
+        </div>
+        <div class="cup-container">
+            <img class="cup" src="../static/img/cup.png" alt="cup" />
+        </div>
         <div class="text-vertical-center">
             <h1>Hello, World!</h1>
-            <h1 id= "head_title" class="head_title">  &emsp; &nbsp;&nbsp;I'm a Computer Scientist &amp; Software Developer</h1>
+            <h1 id= "head_title" class="head_title">I'm a <span class="special">Computer Scientist</span> & <span class="special">Software Developer</span></h1>
         </div>
     </header>
 
@@ -374,11 +402,8 @@
 
 <div class="album text-muted">
   <div class="container">
-    <div class="row">
-
-
-
-<div class="card">
+    <div class="row cards-container">
+        <div class="card">
            <img src="../static/img/performance measure of classifier.png" alt="">
            <p class="card-text"><b>Performance Measure of Classifier:</b>&nbsp;&nbsp; I used python to create a program to clean the raw data and compute Confusion Matrix and ROC curve for understanding and evaluating classifiers related to cancer data.
         The code is available on &nbsp;<a href="https://github.com/jushita/Performance-Measure-of-Classifier" target="_blank">Github!</a>  </p>
@@ -388,18 +413,18 @@
            <p class="card-text"><b>My Portfolio:</b>&nbsp;&nbsp; This project is done using Python (Flask), HTML/CSS. I have customized several Bootstrap themes and combined them to create my own personal website. You can see the code on &nbsp;<a href="https://github.com/jushita/portfolio" target="_blank">Github!</a></p>
          </div>
          <div class="card">
+           <img src="../static/img/web-blog.jpg" alt="">
+           <p class="card-text"><b>Web Blog:</b>&nbsp;&nbsp;Standard flask projects I worked on for learning python and flask development in depth. I have used MongoDB as the database for these projects. <br />The codes can be viewed on &nbsp;<a href="https://github.com/jushita/web-blog" target="_blank">Github!</a></p>
+         </div>
+
+         <div class="card">
            <img src="../static/img/research.jpg" alt="">
            <p class="card-text"><b>Research - Effect of Signal to Noise Ratio on Prediction: </b>&nbsp;&nbsp; I have conducted research for analysing signal to noise ratio of protien-protein interraction on classifiers such as Bayesian Network and Logistic Regression Model. This project was done under the NSF Career Grant in Claflin University.</p>
          </div>
-
          <div class="card">
            <img src="../static/img/tip-calculator.png" alt="">
            <p class="card-text"><b>Tip-Calculator:</b>&nbsp;&nbsp;A simple javascript project that claculates the amount of tip to be paid. It was a fun weekend project I did while learning the basics of javascript.
               <br />  The code is availabe on &nbsp;<a href="https://github.com/jushita/tip-calculator" target="_blank">Github!</a></p>
-         </div>
-         <div class="card">
-           <img src="../static/img/web-blog.jpg" alt="">
-           <p class="card-text"><b>Web Blog:</b>&nbsp;&nbsp;Standard flask projects I worked on for learning python and flask development in depth. I have used MongoDB as the database for these projects. <br />The codes can be viewed on &nbsp;<a href="https://github.com/jushita/web-blog" target="_blank">Github!</a></p>
          </div>
          <div class="card">
            <img src="../static/img/flask_project.jpg" alt="">
@@ -429,17 +454,15 @@
 </section>
 <div class="wrapper">
         <div class="profile-container">
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                  <div class="col-md-7">
-                    <h2 class="featurette-heading">Jushita Rahman</h2>
-                    <p class="lead">3698 Lake Marston Dr<br />Orangeburg, SC 29118<br />+1 (803) 997 1060 <br />jushitaa@gmail.com</p>
-                  </div>
-                  <div class="col-md-5">
-                    <img class="featurette-image" src="../static/img/me.jpg" alt="">
-                  </div>
-                </div>
+            <div class="row featurette">
+              <div class="col-md-7 featurette-details ">
+                <h2 class="featurette-heading">Jushita Rahman</h2>
+                +1 (803) 997 1060 <br />jushitaa@gmail.com</p><br ? />Skype: jushitaa@gmail.com
+              </div>
+              <div class="col-md-5 featurette-image-container ">
+                <img class="featurette-image" src="../static/img/me.jpg" alt="">
+              </div>
+            </div>
         </div>
 
 </div>
@@ -609,7 +632,7 @@ $('.map').on('click', onMapClickHandler);
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
-<!**********************************************nav bar**********************************************************>
+<!**********************************************nav bar*******************************************>
 </body>
 
 </html>
